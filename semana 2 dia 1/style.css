@@ -35,6 +35,13 @@ article {
 }
 img {
   border: solid red;
+
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+.imagen2 {
+  border: solid red;
   border-radius: 80px;
   width: 150px;
   height: 150px;
@@ -48,7 +55,11 @@ section {
   height: 200px;
   text-align: center;
   background-color: rgb(22, 204, 92);
-  color: brown;
+  color: rgb(40, 11, 145);
   padding: 20px;
   margin: auto;
+}
+.p2 {
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
