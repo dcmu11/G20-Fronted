@@ -1,4 +1,4 @@
-h1{
+/* h1{
     color: green;
 }
 h2{
@@ -7,4 +7,34 @@ h2{
 
 p{
     color: blueviolet;
+}
+h4{
+    font-size: 40px;
+    color: aqua;
+    
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  border: solid red;
+  height: 100vh;
+}
+article {
+  border: solid blue 3px;
+  border-radius: 3px;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  background-color: darkorange;
+  color:brown;
+  padding: 20px;
+  margin: auto;
+}
+img {
+  width: 300px;
+  height: 150px;
+  object-fit: contain;
 }
