@@ -24,17 +24,31 @@ body {
 }
 article {
   border: solid blue 3px;
-  border-radius: 3px;
+  border-radius: 10px;
   width: 300px;
   height: 200px;
   text-align: center;
   background-color: darkorange;
-  color:brown;
+  color: brown;
   padding: 20px;
   margin: auto;
 }
 img {
-  width: 300px;
+  border: solid red;
+  border-radius: 80px;
+  width: 150px;
   height: 150px;
   object-fit: contain;
+}
+
+section {
+  border: solid rgb(255, 174, 0) 3px;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  background-color: rgb(22, 204, 92);
+  color: brown;
+  padding: 20px;
+  margin: auto;
 }
