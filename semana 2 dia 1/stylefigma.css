@@ -1,0 +1,56 @@
+.sec1 {
+  width: 960px;
+  height: 525px;
+  background-image: url(img/image\ 1.png);
+  margin: auto;
+}
+.sec2 {
+  width: 960px;
+  height: 424px;
+  margin: auto;
+  background-color: #7299fe;
+}
+.sec3 {
+  width: 960px;
+  height: 424px;
+  background: #9022ff;
+  margin: auto;
+}
+.sec4 {
+  width: 960px;
+  height: 424px;
+  margin: auto;
+  background: #ffd233;
+}
+.sec5 {
+  width: 960px;
+  height: 258px;
+  margin: auto;
+  background: #3f4e62;
+}
+.sec6 {
+  width: 960px;
+  height: 578px;
+  background: #1687a0;
+  margin: auto;
+}
+.codigo {
+  width: 232px;
+  height: 74px;
+  top: 53px;
+  left: 386px;
+  margin: auto;
+  font-family: Arial;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 73.59px;
+  text-align: left;
+  color: #ffffff;
+}
+.name {
+  width: 365px;
+  height: 117px;
+  top: 262px;
+  left: 78px;
+  border-radius: 10px 10px 10px 10px;
+}
