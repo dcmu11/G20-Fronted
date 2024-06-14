@@ -1,0 +1,43 @@
+body {
+  border: solid orange;
+  margin: auto;
+  height: 100vh;
+}
+header {
+  border: solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+ul{
+    display: flex;
+}
+li{
+    margin-right: 7px ;
+    list-style: none;
+}
+h1 {
+  text-align: center;
+  color: brown;
+}
+.parr {
+  color: blue;
+}
+#nombre {
+  color: green;
+}
+
+section {
+  border: solid red;
+  width: 600px;
+  border-radius: 20px;
+  text-align: center;
+  margin: auto;
+}
+section .redes img {
+  width: 100px;
+  border: solid blueviolet;
+  border-radius: 50%;
+}
