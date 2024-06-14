@@ -1,5 +1,5 @@
 body {
-  border: solid orange;
+
   margin: auto;
   height: 100vh;
 }
@@ -9,6 +9,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 ul{
@@ -40,4 +42,18 @@ section .redes img {
   width: 100px;
   border: solid blueviolet;
   border-radius: 50%;
+}
+.contenedor{
+  border: solid red;
+  display: flex;
+  height: 300px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cuadrado{
+  margin-left: 4px;
+  width: 150px;
+  height: 150px;
+  background-color: blue;
 }

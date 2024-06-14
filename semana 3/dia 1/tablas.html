@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablas</title>
+  </head>
+  <body>
+    <style>
+      table {
+        width: 50%;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      td,
+      th {
+        border: 1px solid;
+        padding: 10px;
+      }
+      th {
+        background-color: rgb(182, 181, 181);
+      }
+    </style>
+
+    <h1>TABLAS 1</h1>
+    <table>
+      <!-- colspan combina dos columas
+         rowspan combina filas -->
+      <tr>
+        <th>NOMBRE</th>
+        <th>EDAD</th>
+        <th>CIUDAD</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Deivy</td>
+        <td rowspan="2">29</td>
+        <td rowspan="4">Cajamarca</td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td>Juan</td>
+        <td>27</td>
+      </tr>
+      <tr>
+        <td>Jorge</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <td>Jair</td>
+        <td>27</td>
+        <td>Lima</td>
+      </tr>
+    </table>
+    <br />
+    <!-- tabla de datos -->
+    <h1>TABLA 2</h1>
+    <table>
+      <caption>
+        DATOS DE PERSONAL
+      </caption>
+      <thead>
+        <tr>
+          <th>NOMBRE</th>
+          <th>EDAD</th>
+          <th>CIUDAD</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Juan</td>
+          <td>27</td>
+          <td>Cajamarca</td>
+        </tr>
+        <tr>
+          <td>Deivy</td>
+          <td>29</td>
+          <td>Arequipa</td>
+        </tr>
+        <tr>
+          <td>Jair</td>
+          <td>27</td>
+          <td>Lima</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">total de registros:3</td>
+        </tr>
+      </tfoot>
+    </table>
+    <h1>TABLA 3</h1>
+    <table>
+      <caption>
+        DATOS GENERALES
+      </caption>
+      <thead>
+        <tr>
+          <th>CIUDAD</th>
+          <th>NOMBRE</th>
+          <th>EDAD</th>
+          <th>CELULAR</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">Cajamarca</td>
+          <td>Juan</td>
+          <td>27</td>
+          <td>948572417</td>
+        </tr>
+        <tr>
+          <td>Jose</td>
+          <td>27</td>
+          <td>948572417</td>
+        </tr>
+        <tr>
+          <td>Carlos</td>
+          <td>27</td>
+          <td>948572417</td>
+        </tr>
+        <tr>
+          <td rowspan="4">Arequipa</td>
+          <td>Deivy</td>
+          <td>29</td>
+          <td>948572417</td>
+        </tr>
+        <tr>
+          <td>Miguel</td>
+          <td>29</td>
+          <td>948572417</td>
+        </tr>
+        <tr>
+          <td>Pablo</td>
+          <td>29</td>
+          <td>948572417</td>
+        </tr>
+        <tr>
+          <td>David</td>
+          <td>27</td>
+          <td>948572417</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">total de registros:7</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
