@@ -1,0 +1,63 @@
+body {
+  margin: auto;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+}
+section {
+  flex: content;
+  border: solid hsl(216, 50%, 16%);
+  height: 580px;
+  width: 380px;
+  border-radius: 15px;
+  text-align: center;
+  margin: auto;
+  background-color: hsl(216, 50%, 16%);
+}
+.logo {
+  margin-top: 10px;
+  margin: auto;
+  height: 250px;
+  width: 300px;
+  border-radius: 10px;
+}
+.equi {
+  color: whitesmoke;
+  text-align: start;
+}
+p {
+  text-align: start;
+  color: rgb(94, 94, 94);
+}
+.divico {
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+}
+.ico1 {
+  text-align: start;
+  float: left;
+}
+.pico1 {
+  color: hsl(178, 100%, 50%);
+}
+.ico2 {
+  float: right;
+}
+.pico2 {
+  color: hsl(215, 51%, 70%);
+  float: right;
+}
+
+.user {
+  width: 50px;
+  float: left;
+  justify-content: end;
+}
+.puser {
+  float: left;
+}
+.pline{
+  text-align: center;
+  margin: auto;
+
+}

@@ -1,5 +1,9 @@
 {
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.accessibilitySupport": "on",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
