@@ -1,0 +1,25 @@
+/* .box {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+  transition: 0.5s ease;
+  /* opacity 
+}
+.box:hover {
+  background-color: aqua;
+  width: 350px;
+  height: 100px;
+} */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(224, 24, 24);
+  transform: rotate(0deg);
+  transition: width 1s, heigth 1s, background-color 1s, transform 1s;
+}
+.box:hover {
+  background-color: rgb(55, 24, 167);
+  width: 150px;
+  height: 150px;
+  transform: rotate(180deg);
+}

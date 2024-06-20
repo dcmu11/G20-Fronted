@@ -1,0 +1,94 @@
+.texto-animado {
+  border: solid;
+  color: blue;
+
+  animation: texto-volador;
+  animation-iteration-count: 1;
+  animation-duration: 20s;
+}
+
+@keyframes texto-volador {
+  from {
+    margin-left: 100%;
+    width: 300%;
+    background-color: brown;
+    border: solid brown;
+  }
+  to {
+    margin-left: -100%;
+    background-color: rgb(85, 42, 165);
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.resize {
+  border: solid black;
+
+  animation: imgsize;
+  animation-iteration-count: 1;
+  animation-duration: 10s;
+}
+@keyframes imgsize {
+  from {
+    width: 500px;
+  }
+  to {
+    width: 100px;
+  }
+}
+.boxcolor {
+  border: solid rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  width: 200px;
+  height: 200px;
+
+  animation: changecolor;
+  animation-iteration-count: 1;
+  animation-duration: 10s;
+}
+
+@keyframes changecolor {
+  0% {
+    background-color: blue;
+  }
+  25% {
+    background-color: rgb(41, 170, 58);
+  }
+  50% {
+    background-color: rgb(206, 132, 49);
+  }
+  75% {
+    background-color: rgb(102, 7, 54);
+  }
+  100% {
+    background-color: rgb(119, 32, 36);
+  }
+}
+.imagencambio {
+  border: solid rgb(0, 0, 0);
+  background-image: url(./img/mucava30.png);
+  width: 400px;
+  height: 400px;
+
+  animation: changeimagen;
+  animation-iteration-count: 1;
+  animation-duration: 10s;
+}
+@keyframes changeimagen {
+  0% {
+    background-image: url(./img/709832.jpg);
+  }
+  25% {
+    background-image: url(./img/709942.jpg);
+  }
+  50% {
+    background-image: url(./img/715918.jpg);
+  }
+  75% {
+    background-image: url(./img/assassins_creed_assassins_creed_games_video_games_warriors_fantasy_landscapes_clouds_lakes_1920x1200.jpg);
+  }
+  100% {
+    background-image: url(./img/mucava30.png);
+  }
+}
