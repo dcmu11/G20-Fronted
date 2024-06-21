@@ -1,0 +1,16 @@
+.box-basic {
+  width: 150px;
+  height: 150px;
+  border: solid red;
+
+  /* box-shadow: 5px--abajo  5px--derecha  10px profundidad  rebeccapurple --color; 
+inset cambia al reves al interir de la forma o caja*/
+
+  box-shadow: 5px 15px 10px rebeccapurple;
+}
+.box-blur {
+  width: 150px;
+  height: 150px;
+  border: solid rgb(30, 8, 153);
+  box-shadow: 5px 15px 10px rgb(1, 68, 7, 0.5);
+}

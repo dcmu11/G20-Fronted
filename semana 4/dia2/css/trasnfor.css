@@ -1,0 +1,62 @@
+.tarjeta {
+  width: 300px;
+  height: 200px;
+  background-color: rgb(61, 61, 172);
+  transition: 1s ease-in-out;
+}
+.tarjeta:hover {
+  width: 300px;
+  height: 200px;
+  background-color: rgb(9, 173, 132);
+  transform: rotateY(180deg);
+}
+
+.moneda {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(187, 204, 30);
+  border: solid 2px;
+  transition: 1s ease-in-out;
+}
+.moneda2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(94, 15, 77);
+  border: solid 2px;
+  transition: 2s ease-in-out;
+
+  animation: changemoneda;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+.moneda:hover {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(9, 173, 132);
+  transform: rotateY(180deg);
+}
+.moneda2:hover {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(145, 16, 87);
+  transform: rotateY(180deg);
+}
+
+@keyframes changemoneda {
+  0% {
+    transform: rotateY(0deg);
+  }
+  25% {
+    transform: rotateY(80deg);
+  }
+  50% {
+    transform: rotateY(120deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
