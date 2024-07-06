@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <h3>Vamos a ver cuál de los 3 usuarios es el de mayor edad</h3> <br>
+            
+                <label for="edadPrimerUsuario">Edad Primer Usuario</label>
+                <input type="number" id="edadPrimerUsuario"><br><br>
+                <label for="edadSegundoUsuario">Edad Segundo Usuario</label>
+                <input type="number" id="edadSegundoUsuario"><br><br>
+                <label for="edadTercerUsuario">Edad Tercer Usuario</label>
+                <input type="number" id="edadTercerUsuario"><br><br>
+                <button type="button" onclick="cualUsuarioEsMayor();">¿Cuál es mayor?</button><br><br>
+                <p>resultado: <span id="resultado2"></span></p>
+        </body>
+        <script>
+            function cualUsuarioEsMayor() {
+            
+            let edadPrimerUsuario = parseInt(document.getElementById('edadPrimerUsuario').value);
+            let edadSegundoUsuario = parseInt(document.getElementById('edadSegundoUsuario').value);
+            let edadTercerUsuario = parseInt(document.getElementById('edadTercerUsuario').value);
+            var mensaje = "";
+            
+                if (edadPrimerUsuario > edadSegundoUsuario && edadPrimerUsuario > edadTercerUsuario) { 
+                    mensaje = "El Primer Usuario es el mayor";
+                    alert(mensaje);   
+                }
+                else if (edadSegundoUsuario > edadPrimerUsuario && edadSegundoUsuario > edadTercerUsuario){
+                    mensaje = "El Segundo Usuario es el mayor";
+                    alert(mensaje);       
+                }
+                else if( edadTercerUsuario > edadPrimerUsuario && edadTercerUsuario > edadSegundoUsuario){
+                    mensaje = "El Tercer Usuario es el mayor";
+                    alert(mensaje);
+                }
+               document.getElementById("resultado2").innerHTML = mensaje;
+            }
+        </script>
+        </html>
+</body>
+</html>
