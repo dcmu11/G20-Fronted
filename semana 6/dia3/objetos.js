@@ -32,7 +32,7 @@ console.table(carro);
 
 //creamos un arreglo de objetos
 
-const laptos=[
+const laplaptos=[
     {
         marca:"mac",
         precio:2500,
