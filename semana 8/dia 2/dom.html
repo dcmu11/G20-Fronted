@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body>
+
+    <h1>ENVENTOS</h1>
+    <button onclick="alert('hola como esats')"> CLick</button>
+    <button onclick=imprimir()> CLick2</button>
+
+    <p onmouseove >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi illo suscipit voluptatum rem quibusdam, labore, consequuntur similique velit cupiditate, perspiciatis unde quia nostrum deserunt tempora quisquam vel id necessitatibus earum?</p>
+
+<button ondblclick=imprimir()>Doble click</button>
+
+<button id="btn">desde js</button>
+<br>
+<br>
+<br>
+<br>
+<div id="miDiv" >HOLA MUNDO</div>
+
+
+<!-- ejemplos -->
+
+<form action="">
+    <input type="email" placeholder="ingresa correo" class="email" value="deivy@gmail.com">
+    <input type="password" placeholder="ingresa contraseña" id="pass" >
+    <input type="text" placeholder="Tu nombre"  >
+</form>
+
+
+<h1>Aalertas sweetalert2</h1>
+
+<button onclick=alerta1() id="btn1">Pregunta</button>
+<button onclick=alerta2()  id="btn2">Cambios</button>
+<button onclick=alerta3()  id="btn3">Guardado </button>
+<button onclick=alerta4()  id="btn4">ERROR</button>
+
+
+
+<br>
+<br>
+<div id="darkmode">ESTE TEXTO CAMBIA DE COLOR</div>
+<button onclick=cambiarColor() ondblclick=cambiardenuevo()>Cambiar color</button>
+
+<br>
+<br>
+<div id="change">ESTE TEXTO CAMBIA DE</div>
+<button onclick=cambiarTexto() ondblclick=cambiardenuevo()>Cambiar texto</button>
+
+
+<br>
+<br>
+<div id="modificar">ESTE TEXTO CAMBIA COLOR Y TEXTO</div>
+<button onclick=modificar() >Cambiar texto</button>
+
+<script src="sweet.js"></script>
+    <script src="dom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
